@@ -6,7 +6,7 @@ num = 1
 while fibo_list[num] < 3000000: # 이 부분이 약간 틀린 것 같음
     value = pibo_list[num-1] + fibo_list[num]
     num += 1
-    pibo_list.append(value)
+    fibo_list.append(value)
 
 for y in fibo_list:
     if y % 2 == 0:
